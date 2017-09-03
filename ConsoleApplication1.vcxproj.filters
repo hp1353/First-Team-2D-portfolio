@@ -1,0 +1,773 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameFramework2D">
+      <UniqueIdentifier>{9027630e-676d-4608-95b4-0169bff1cdd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Managers">
+      <UniqueIdentifier>{25018839-79b6-49eb-99e4-2fd9341e3d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\image">
+      <UniqueIdentifier>{22cf40c1-bb58-4ab0-890b-48a86d625909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\utils">
+      <UniqueIdentifier>{dea4089c-0777-4b56-a9e2-be47b982643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\timer">
+      <UniqueIdentifier>{cc281109-c30a-4b48-830e-7a839d96aaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\txtData">
+      <UniqueIdentifier>{2da987a7-58d4-4bd1-b708-3dc1a9a3c2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\progressBar">
+      <UniqueIdentifier>{451f5777-80e1-473e-b5d9-8d5f63bc614f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\effect">
+      <UniqueIdentifier>{e5448ab7-1848-4388-9e27-cc7da72e677d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\animation">
+      <UniqueIdentifier>{fc4f553d-b4e5-4ae3-8dfb-199c9e04a138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\action">
+      <UniqueIdentifier>{378f62d5-12c5-439b-b10b-7192ba6c398f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\button">
+      <UniqueIdentifier>{894109fa-08b5-4ead-bfbb-23b05a7e51f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\database">
+      <UniqueIdentifier>{dc7aee72-1631-42ad-b3b6-6705fdcbe8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy">
+      <UniqueIdentifier>{8d43c7ec-7851-491a-922c-8c66c8c45adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\bullets">
+      <UniqueIdentifier>{53f7f853-aaed-4377-8f56-f8efe3d614c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\starwarsScene">
+      <UniqueIdentifier>{14ff23ef-e561-483f-8bae-a3bbe03750fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\aniTest">
+      <UniqueIdentifier>{5c17307b-4232-4de8-910c-7cf09473109a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\pixelCollision">
+      <UniqueIdentifier>{65625420-1f12-447d-8294-01d40ada5cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\actionTest">
+      <UniqueIdentifier>{35e74eb3-2ee4-4379-b544-4922b4ad1f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\selectScene">
+      <UniqueIdentifier>{50de2ea1-8e2f-4546-8eb0-407707d0fceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\Stage">
+      <UniqueIdentifier>{77744df2-d4ff-44b0-8277-9e661b407e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\EggScene">
+      <UniqueIdentifier>{cf59a110-7773-40a5-8385-c5d021e85a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기">
+      <UniqueIdentifier>{44f82814-889d-4377-a609-2d1a7e39c67a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\무기">
+      <UniqueIdentifier>{5854e913-af52-4fe7-8d94-898a0bbbaba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\무기\기본 총">
+      <UniqueIdentifier>{89a41136-d3bc-4e69-b6ad-6a88251f2a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\무기\머신건">
+      <UniqueIdentifier>{ee9e9b0d-bb76-43f5-896b-5991c5003f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\무기\로켓">
+      <UniqueIdentifier>{160dcaa4-65ff-43d1-adbe-a7358a08e7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\무기\나이프">
+      <UniqueIdentifier>{0fee4f59-17d5-4989-8eb8-3ff008da2098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알">
+      <UniqueIdentifier>{6a329b04-4d3e-4d52-a798-e191e7ba01bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\아이템">
+      <UniqueIdentifier>{ee9aefe7-a7c5-4500-81ca-7fb0829c4410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템">
+      <UniqueIdentifier>{43e9130b-4e1a-4811-b908-53416fa1d74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\아이템\체력관련">
+      <UniqueIdentifier>{c0b747f5-79ab-4b58-908d-c3134e6185b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\아이템\로켓 관련">
+      <UniqueIdentifier>{ec738e6d-adbf-4803-9803-7cd7e1a35866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\보스방">
+      <UniqueIdentifier>{d4a94adf-6636-4d69-9a59-1fa33e8b2c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\무기\스네이크">
+      <UniqueIdentifier>{575b30c0-0d70-4b2c-b005-f2c8f50c96ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\무기\레이저">
+      <UniqueIdentifier>{30fc41ea-a4fd-401e-b236-e181b7ad0c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\적">
+      <UniqueIdentifier>{2bf07083-dafe-48f3-9334-4b104350dc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\적\singleClass">
+      <UniqueIdentifier>{34802d1b-43c2-46a6-810f-fa047924f359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\무기\파이어볼">
+      <UniqueIdentifier>{ea184860-c9aa-4b81-9b06-7be9b7d86785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!">
+      <UniqueIdentifier>{4d6bfa8d-41cf-42e4-bd02-bdf752cc4b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\기본총알">
+      <UniqueIdentifier>{211e7c59-7df4-49a6-87b3-fbcea9cb3d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\나이프">
+      <UniqueIdentifier>{fda0c2d1-f194-47c4-87eb-ad4da1f816b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\로켓">
+      <UniqueIdentifier>{c317c3cf-37d0-4f7b-b6ac-d2ec9ff454a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\스네이크">
+      <UniqueIdentifier>{6aab6549-a83b-4867-b25e-ac4263fa1ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\파이어볼">
+      <UniqueIdentifier>{d5cc8ec7-d910-4006-a730-68f9e7d27fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\적 총알!">
+      <UniqueIdentifier>{556927b8-a2f9-40d3-98a9-191150f640d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\적 총알!\Basu">
+      <UniqueIdentifier>{8d21f89a-4dfe-4e02-938f-95b9f24356fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\적\singleClass\boss">
+      <UniqueIdentifier>{e3d98ef2-20f3-4dcd-bd91-57a07bded39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\mapeffect">
+      <UniqueIdentifier>{08300a16-a647-4c56-b04e-452043455961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\EggScene\effectTest">
+      <UniqueIdentifier>{6f03e5ee-d150-4553-9931-380dabc3a8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\레이저">
+      <UniqueIdentifier>{41314af0-0a03-4bc5-9a20-2fed9c6be874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\Npc">
+      <UniqueIdentifier>{233576c6-25e6-4e26-af08-361e39b6b236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\Npc\UI">
+      <UniqueIdentifier>{3a39ed50-4b6d-41c5-9d59-ea58a9962d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\gameStudy\동굴이야기\총알\적 총알!\Dragon">
+      <UniqueIdentifier>{2c1b07f3-80b0-4fa9-a348-ba9b9129e90c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>GameFramework2D</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStudy.h">
+      <Filter>GameFramework2D\gameStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>GameFramework2D\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>GameFramework2D\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="spaceShip.h">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>GameFramework2D\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>GameFramework2D\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>GameFramework2D\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>GameFramework2D\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>GameFramework2D\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BnS.h">
+      <Filter>GameFramework2D\gameStudy\aniTest</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="effectTest.h">
+      <Filter>GameFramework2D\gameStudy\EggScene\effectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelCollision.h">
+      <Filter>GameFramework2D\gameStudy\pixelCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>GameFramework2D\action</Filter>
+    </ClInclude>
+    <ClInclude Include="actionTest.h">
+      <Filter>GameFramework2D\gameStudy\actionTest</Filter>
+    </ClInclude>
+    <ClInclude Include="battle.h">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ship.h">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="carrier.h">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="starWarsScene.h">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>GameFramework2D\button</Filter>
+    </ClInclude>
+    <ClInclude Include="selectScene.h">
+      <Filter>GameFramework2D\gameStudy\selectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>GameFramework2D\database</Filter>
+    </ClInclude>
+    <ClInclude Include="actionManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent_Weapone.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기</Filter>
+    </ClInclude>
+    <ClInclude Include="Iteam.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적</Filter>
+    </ClInclude>
+    <ClInclude Include="basil.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="basu.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="bat.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="beetle.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="behemoth.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="critter.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Base_Weapone.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\기본 총</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine_Weapone.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\머신건</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket_Weapone.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\로켓</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire_Weapone.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\파이어볼</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Machine.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_MaxHealth.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\체력관련</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_RechargeRocket.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\로켓 관련</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_RocketMaxUp.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\로켓 관련</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Rocket.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_HealHp.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\체력관련</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Fire.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Knife.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Knife_Weapone.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\나이프</Filter>
+    </ClInclude>
+    <ClInclude Include="bullets.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\기본총알</Filter>
+    </ClInclude>
+    <ClInclude Include="Knife.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\나이프</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\파이어볼</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\로켓</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\보스방</Filter>
+    </ClInclude>
+    <ClInclude Include="eggHatchery.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraAngle.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFullManager.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적</Filter>
+    </ClInclude>
+    <ClInclude Include="angel.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Exp.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="breakBrick.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake_Weapone.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\스네이크</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser_Weapone.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\레이저</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\스네이크</Filter>
+    </ClInclude>
+    <ClInclude Include="stage0.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClInclude>
+    <ClInclude Include="eggLab.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent_bullet.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!</Filter>
+    </ClInclude>
+    <ClInclude Include="E_Parent_bullet.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!</Filter>
+    </ClInclude>
+    <ClInclude Include="Basu_Bullet.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!\Basu</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoad.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClInclude>
+    <ClInclude Include="eggHatchery2.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Laser.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Snake.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\레이저</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\보스방</Filter>
+    </ClInclude>
+    <ClInclude Include="Pop.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!</Filter>
+    </ClInclude>
+    <ClInclude Include="Skull.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBall.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Wood.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBody.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="raineffect.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\mapeffect</Filter>
+    </ClInclude>
+    <ClInclude Include="watereffect.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\mapeffect</Filter>
+    </ClInclude>
+    <ClInclude Include="wallcrush.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\mapeffect</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcEvent.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="endingScene.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieDragon.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie_Bullet.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!\Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineNpc.h">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>GameFramework2D</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStudy.cpp">
+      <Filter>GameFramework2D\gameStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework2D\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>GameFramework2D\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="spaceShip.cpp">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>GameFramework2D\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>GameFramework2D\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>GameFramework2D\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>GameFramework2D\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>GameFramework2D\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BnS.cpp">
+      <Filter>GameFramework2D\gameStudy\aniTest</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="effectTest.cpp">
+      <Filter>GameFramework2D\gameStudy\EggScene\effectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelCollision.cpp">
+      <Filter>GameFramework2D\gameStudy\pixelCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>GameFramework2D\action</Filter>
+    </ClCompile>
+    <ClCompile Include="actionTest.cpp">
+      <Filter>GameFramework2D\gameStudy\actionTest</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ship.cpp">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="carrier.cpp">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="starWarsScene.cpp">
+      <Filter>GameFramework2D\gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>GameFramework2D\button</Filter>
+    </ClCompile>
+    <ClCompile Include="selectScene.cpp">
+      <Filter>GameFramework2D\gameStudy\selectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>GameFramework2D\database</Filter>
+    </ClCompile>
+    <ClCompile Include="actionManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Parent_Weapone.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기</Filter>
+    </ClCompile>
+    <ClCompile Include="Iteam.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적</Filter>
+    </ClCompile>
+    <ClCompile Include="basil.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="basu.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="bat.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="beetle.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="behemoth.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="critter.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Base_Weapone.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\기본 총</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine_Weapone.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\머신건</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket_Weapone.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\로켓</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire_Weapone.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\파이어볼</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Machine.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_MaxHealth.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\체력관련</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_RechargeRocket.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\로켓 관련</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_RocketMaxUp.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\로켓 관련</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Rocket.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_HealHp.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\체력관련</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Fire.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Knife.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Knife_Weapone.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\나이프</Filter>
+    </ClCompile>
+    <ClCompile Include="bullets.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\기본총알</Filter>
+    </ClCompile>
+    <ClCompile Include="Knife.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\나이프</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\파이어볼</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\로켓</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\보스방</Filter>
+    </ClCompile>
+    <ClCompile Include="eggHatchery.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraAngle.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFullManager.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적</Filter>
+    </ClCompile>
+    <ClCompile Include="angel.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Exp.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="breakBrick.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake_Weapone.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\스네이크</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser_Weapone.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\무기\레이저</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\스네이크</Filter>
+    </ClCompile>
+    <ClCompile Include="stage0.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClCompile>
+    <ClCompile Include="eggLab.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClCompile>
+    <ClCompile Include="Parent_bullet.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!</Filter>
+    </ClCompile>
+    <ClCompile Include="E_Parent_bullet.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!</Filter>
+    </ClCompile>
+    <ClCompile Include="Basu_Bullet.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!\Basu</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLoad.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClCompile>
+    <ClCompile Include="eggHatchery2.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Laser.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Snake.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\아이템\무기 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\플레이어 총알!\레이저</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\보스방</Filter>
+    </ClCompile>
+    <ClCompile Include="Pop.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!</Filter>
+    </ClCompile>
+    <ClCompile Include="Skull.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBall.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Wood.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBody.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="raineffect.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\mapeffect</Filter>
+    </ClCompile>
+    <ClCompile Include="watereffect.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\mapeffect</Filter>
+    </ClCompile>
+    <ClCompile Include="wallcrush.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\mapeffect</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcEvent.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="endingScene.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieDragon.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie_Bullet.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\총알\적 총알!\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineNpc.cpp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\Npc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\Map\Stage2_image.bmp">
+      <Filter>GameFramework2D\gameStudy\동굴이야기\적\singleClass</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
